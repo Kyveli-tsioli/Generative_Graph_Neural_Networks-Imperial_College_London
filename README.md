@@ -1,5 +1,7 @@
 # DGL2024 Brain Graph Super-Resolution Challenge
 
+Ranked 6th across 32 groups in the Kaggle Competition 2024.
+
 Note: in the following readme we use LaTeX notation for mathematical expressions. It renders correctly in VSCode, but
 not PyCharm. We thus recommend using VSCode or other editors that support LaTeX rendering. The readme is similar to the
 pdf report but contains some additional information that didn't fit the 2-page limit.
@@ -242,7 +244,7 @@ The total training time for the 3-fold cross-validation was approximately 110 mi
 We then retrained the model on the whole dataset, using the same methods as for CV, namely the same hyperparameters and
 early stopping procedure. After uploading our predictions on the test set to Kaggle, our score on the public test set
 was 0.1317,
-and we ranked 16th across 32 groups.
+and we ranked 6th across 32 groups.
 
 ## References
 
